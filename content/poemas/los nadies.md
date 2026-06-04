@@ -17,11 +17,12 @@ y aunque les pique la mano izquierda,
 o se levanten con el pie derecho,
 o empiecen el año cambiando de escoba.
 
-Los nadies, los hijos de nadie,
+Los nadies: los hijos de nadie,
 los dueños de nada.
-Los nadies, los ningunos, los ninguneados,
+Los nadies: los ningunos, los ninguneados,
 corriendo la liebre, muriendo la vida, jodidos,
-rejodidos
+rejodidos:
+
 Que no son, aunque sean.
 Que no hablan idiomas, sino dialectos.
 Que no profesan religiones,
@@ -34,6 +35,6 @@ Que no tienen cara, sino brazos.
 Que no tienen nombre, sino número.
 Que no figuran en la historia universal,
 sino en la crónica roja de la prensa local.
-Los nadies.
+Los nadies,
 que cuestan menos
 que la bala que los mata.
