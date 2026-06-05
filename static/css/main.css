@@ -189,7 +189,12 @@ main {
 .view-a .list-item:hover .item-meta,
 .view-p .list-item:hover .item-meta { color: var(--accent); opacity: 0.7; }
 
-/* ── Author page poem list ── */
+/* ---- author page ---- */
+
+.author-poems {
+  max-width: fit-content;
+  margin: 0 auto;
+}
 .author-poems .poem-item {
   display: block;
   padding: 0.3rem 0;
