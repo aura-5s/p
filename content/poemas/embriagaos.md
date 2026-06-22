@@ -1,6 +1,6 @@
 ---
 title: Embriagaos
-author: Edgar Allan Poe
+author: Charles Baudelaire
 type: verso
 ---
 

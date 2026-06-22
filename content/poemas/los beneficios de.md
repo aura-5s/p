@@ -1,6 +1,6 @@
 ---
 title: Los beneficios de la Luna
-author: Edgar Allan Poe
+author: Charles Baudelaire
 type: prosa
 ---
 
