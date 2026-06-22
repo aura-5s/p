@@ -250,6 +250,7 @@ main {
 /* fixed width */
 .poem-page.is-prosa .poem-body {
   max-width: var(--max-prose);
+  text-align: justify;
 }
 
 /* container wraps to content, centered */
@@ -331,5 +332,9 @@ main {
   .view-p .item-meta {
     font-size: var(--size-list-meta-mobile);
     line-height: 1;
+  }
+
+  .poem-page.is-prosa .poem-body {
+    hyphens: auto;
   }
 }
