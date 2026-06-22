@@ -5,6 +5,7 @@ type: verso
 ---
 
 > Pues el cuerpo es como 1 patria interna / del cual ningún pedazo puede ser quitado / sin exiliarnos cada vez 1 poco de alma
+> 
 > —Antonin Artaud
 
 Mariana Larrosa aparece

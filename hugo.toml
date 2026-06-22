@@ -1,6 +1,9 @@
 baseURL = "https://aura-5s.github.io/p/"
-languageCode = "es"
+defaultContentLanguage = "es"
 title = "poemas"
+
+[languages.es]
+locale = "es-MX"
 
 [taxonomies]
   author = "author"

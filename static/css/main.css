@@ -15,7 +15,7 @@
   --max-verse: fit-content;
 
   --size-normal: 1.16rem;
-  --size-blockquote: 1rem;
+  --size-blockquote: 1.08rem;
   --size-nav: 0.85rem;
   --size-title: 1.8rem;
   --size-title-meta: 0.82rem;
@@ -259,7 +259,7 @@ main {
   align-items: center;
 }
 
-/* ---- epígrafe/dedicatoria/blockquote ---- */
+/* ---- epígrafe/dedicatoria (mediante blockquote) ---- */
 
 .poem-body blockquote {
   text-align: right;
@@ -268,6 +268,11 @@ main {
   font-size: var(--size-blockquote);
   line-height: 1.1;
   max-width: 380px;
+  
+  /* paragraphs in the blockquote */
+  & p {
+    margin-block: 0.7rem !important;
+  }
 }
 
 /* ---- footnotes ---- */
