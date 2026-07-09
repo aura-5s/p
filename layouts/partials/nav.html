@@ -1,3 +1,6 @@
+{{ $isHome := .IsHome }}
+
+
 {{ $authorName := "" }}
 {{ $authorURL  := "" }}
 
@@ -14,16 +17,21 @@
   {{ end }}
 {{ end }}
 
+
+
 <nav class="site-nav">
   <a href="{{ site.Home.RelPermalink }}" class="nav-dot" aria-label="Inicio"></a>
-
-  {{ if $authorName }}
-    <span class="nav-breadcrumb">
+  <span class="nav-breadcrumb">
+    {{ if $authorName }}
       {{ if $authorURL }}
         <a href="{{ $authorURL }}">{{ $authorName }}</a>
       {{ else }}
         {{ $authorName }}
       {{ end }}
-    </span>
-  {{ end }}
+    {{ else }}
+      {{ if $isHome }}
+        Poesía selecta
+      {{ end }}
+    {{ end }}
+  </span>
 </nav>
