@@ -264,24 +264,21 @@ main {
 
 /* ---- Scrollbar ---- */
 
-::-webkit-scrollbar {
-  width: 6px;
-}
+::-webkit-scrollbar { width: 6px; }
 
-::-webkit-scrollbar-track {
-  background: transparent;
-}
+::-webkit-scrollbar-track { background: transparent; }
 
 ::-webkit-scrollbar-thumb {
   background: rgba(255,255,255,0.2);
   border-radius: 999px;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: var(--accent);
-}
+::-webkit-scrollbar-thumb:hover { background: var(--accent); }
 
-/* ---- MOBILE ---- */
+/* mozilla */
+html { scrollbar-color: var(--accent) transparent; }
+
+/* ---- RESPONSIVE (max 600px) ---- */
 
 @media (max-width: 600px) {
   :root {
